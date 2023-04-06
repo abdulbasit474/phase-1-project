@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: url('https://player.vimeo.com/external/508109548.sd.mp4?s=6b819f618ab6e5dc8337b7036f739176106f0763&profile_id=164&oauth2_token_id=57447761');
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  #mealContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .meal {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 300px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .meal img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .meal h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .meal p {
+    margin-bottom: 10px;
+  }
+  
+  .meal ul {
+    margin-bottom: 10px;
+  }
+  
+  .meal ul li {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
